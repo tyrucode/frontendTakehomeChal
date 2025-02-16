@@ -1,0 +1,30 @@
+.userContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#userList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#userList li {
+    color: black;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#userList li:last-child {
+    margin-bottom: 0;
+
+}
